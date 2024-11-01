@@ -1,0 +1,55 @@
+*{
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    background-image: url(assests/1963-Volkswagen-Beetle-Herbie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #404040;
+}
+div{
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    border-radius: 9px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+input{
+    align-items: center;
+    text-align: center;
+    width: 125px;
+    background-color: #404040;
+    color: white;
+    border-radius: 15px;
+    border: 0;
+}
+
+h1{
+    width: 300px;
+}
+
+pre{
+    text-align: center;
+}
+
+.buttonRow{
+    flex-direction: rows;
+    border: 0px;
+}

@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    background-image: url(assets/pelucia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, 0 0, right bottom;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 254, 254, 0.342);
+    width: 50%;
+    border-radius: 15px;
+}
+form{
+    display: flex;
+    border-radius: 15px;
+    width: 300px;
+
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+p{  
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 150px;
+    border-radius: 15px;
+    border: solid 0px;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}

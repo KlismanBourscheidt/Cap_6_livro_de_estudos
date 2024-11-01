@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const idades = [12, 20, 15, 17, 14];
+        let maiores = false
+        for(const idade of idades){
+            if(idade <= 18){
+                console.log(idade);
+                maiores = true
+            }
+        }
+        if(!maiores){
+            console.log('Não há idades maiores que 18 nesta lista')
+        }
+    </script>
+</body>
+</html>

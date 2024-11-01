@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Herbie</title>
+</head>
+<body>
+    <h1>Revenda Herbie</h1>
+    <div>
+        <form>
+            <p>Modelo <input type="text" id="inModelo" required autofocus placeholder="Modelo do Vaiculo"></p>
+            <p>
+                Preco R$:
+                <input type="number" id="inPreco" required step="0.01" placeholder="Preco do Veiculo">
+                <input type="submit" value="Adicionar">
+            </p>
+            <div class="buttonRow">
+                <input class="buttonRow" type="button" value="Listar" id="btListar">
+                <input class="buttonRow" type="button" value="Filtrar" id="btFiltrar">
+                <input class="buttonRow" type="button" value="Desconto" id="btSimular">
+            </div>
+        </form>
+        <pre></pre>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
